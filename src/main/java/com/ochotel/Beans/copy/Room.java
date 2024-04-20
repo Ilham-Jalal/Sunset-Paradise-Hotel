@@ -1,4 +1,4 @@
-package com.ochotel.Beans;
+package com.ochotel.Beans.copy;
 
 public class Room {
 

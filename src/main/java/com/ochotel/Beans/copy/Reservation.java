@@ -1,15 +1,13 @@
-package com.ochotel.Beans;
-
-import java.sql.Date;
+package com.ochotel.Beans.copy;
 
 public class Reservation { 
 	private int Id;
 	private int  R_id;
-	private Date start_date;
-	private Date  end_date;
+	private String start_date;
+	private String  end_date;
 	private int num_guests;
 	
-	public Reservation(int id, int r_id, Date start_date, Date end_date, int num_guests) {
+	public Reservation(int id, int r_id, String start_date, String end_date, int num_guests) {
 		super();
 		Id = id;
 		R_id = r_id;
@@ -29,16 +27,16 @@ public class Reservation {
 	public void setR_id(int r_id) {
 		R_id = r_id;
 	}
-	public Date getStart_date() {
+	public String getStart_date() {
 		return start_date;
 	}
-	public void setStart_date(Date start_date) {
+	public void setStart_date(String start_date) {
 		this.start_date = start_date;
 	}
-	public Date getEnd_date() {
+	public String getEnd_date() {
 		return end_date;
 	}
-	public void setEnd_date(Date end_date) {
+	public void setEnd_date(String end_date) {
 		this.end_date = end_date;
 	}
 	public int getNum_guests() {

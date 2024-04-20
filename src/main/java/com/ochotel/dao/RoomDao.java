@@ -6,6 +6,6 @@ import java.util.List;
 import com.ochotel.Beans.Room;
 
 public interface RoomDao {
-	List<Room> addRoom()throws ClassNotFoundException, SQLException;
-
+	List<Room> displayRoom()throws ClassNotFoundException, SQLException;
+	List<Room> searchRoom(String searchTerm) throws ClassNotFoundException;
 }
