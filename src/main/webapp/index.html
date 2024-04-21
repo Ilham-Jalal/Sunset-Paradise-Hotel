@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Management</title>
+    <style>
+        body {
+            background-color: #DA70D6;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            background-color: #DA70D6;
+            text-align: center;
+            color: #fff;
+            margin: 0;
+            padding: 20px 0;
+        }
+
+        ul.navbar {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        ul.navbar li {
+            float: left;
+        }
+
+        ul.navbar li a {
+            display: flex;
+            flex-derection:row;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.navbar li a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Sunset Paradise Hotel</h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="http://localhost:8080/Paradise_hotell/RoomServlet">Accueil</a></li>
+                <li><a href="http://localhost:8080/Paradise_hotell/ReservationServlet">Our Reservations</a></li>
+                <li><a href="http://localhost:8080/Paradise_hotell/add_reservation.jsp">Add Reservation</a></li>
+                <li><a href="http://localhost:8080/Paradise_hotell/SearchRoomServlet">Search Room</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+</body>
+</html>
+
